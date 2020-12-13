@@ -24,6 +24,45 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22294" type="text/javascript"></script>
+<script type="text/javascript">
+	JotForm.init(function(){
+	JotForm.newDefaultTheme = true;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = true;
+	JotForm.newPaymentUI = true;
+      JotForm.alterTexts(undefined);
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"livechatDemo","qid":"1","text":"LiveChat Demo","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},null,null,{"description":"","name":"email","qid":"5","subLabel":"example@example.com","text":"Email","type":"control_email"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"livechatDemo","qid":"1","text":"LiveChat Demo","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},null,null,{"description":"","name":"email","qid":"5","subLabel":"example@example.com","text":"Email","type":"control_email"}]);}, 20); 
+</script>
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22294" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.22294" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22294" />
+<script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="203465705288057" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='203465705288057'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "203465705288057-203465705288057";
+}
+  </script>
+  <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.22294"></script>
+  <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.22294"></script>
     <title>React App</title>
   </head>
   <body>
